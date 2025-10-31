@@ -1,0 +1,20 @@
+charset "utf-8"; /* Define a codificação de caracteres para o CSS */
+
+/* --- Reset básico e configurações iniciais --- */
+* {
+    box-sizing: border-box; /* Garante que padding (espaçamento interno) e border (borda) sejam incluídos na largura/altura total de um elemento, evitando surpresas no layout */
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove preenchimentos padrão de todos os elementos */
+}
+
+body {
+  font-family: arial, sans-self; 
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+min-height: 100vh;
+background-color: #f0f8ff;
+
+
+}
